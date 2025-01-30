@@ -29,7 +29,7 @@ function Header(){
 
     return(
         <>
-            <header className={cn("bg-white w-full px-6 py-4", hambOpen ? 'open-hamb' : '')}>
+            <header className={cn("bg-white w-full flex justify-between px-6 py-4", hambOpen ? 'open-hamb' : '')}>
             <Image src={logo} alt="logo" className='w-14 h-14' />
             </header>
         </>
