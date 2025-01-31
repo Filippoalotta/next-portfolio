@@ -22,8 +22,7 @@ const Hero = () => {
       <div className="flex flex-col flex-1 text-center md:text-left justify-start items-center md:items-start gap-4 max-w-lg">
         <h1 className="text-4xl md:text-5xl font-bold">Front-end Developer</h1>
         <p className="max-w-96">
-          Hi, I&apos;m Filippo Alotta, a Front-end React Developer based in
-          Rome.
+          Hi, I&apos;m Filippo Alotta, a Front-end Developer based in Rome.
         </p>
         <div className="flex flex-wrap justify-center md:justify-start gap-2 items-center">
           {skills.map((skill, index) => (
